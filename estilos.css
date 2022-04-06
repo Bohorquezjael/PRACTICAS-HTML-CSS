@@ -1,0 +1,27 @@
+body{
+    background-color:#FFFACD;
+}
+h3{
+    color:#20B2AA;
+    text-align: center;
+}
+h1{
+    text-align: left;
+    color:#ADFF2F;
+}
+p{
+    color:#B22222;
+    text-align: left;
+    font-size: 30px;
+    font-family: verdana;
+}
+.inset{
+    outline-style: inset;
+}
+div{
+    background:deepskyblue;
+    color:rebeccapurple;
+    height:200px;
+    width: 1900px;
+    text-align: center;
+}

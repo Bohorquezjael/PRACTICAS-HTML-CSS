@@ -1,0 +1,70 @@
+body{
+    background-color: #dbf2af;
+}
+h3{ 
+    color: rgb(0, 60, 116);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.nombre{
+    color: rgb(255, 40, 40);
+    font-family: Verdana;
+    text-align: center;
+    margin-top: 10px;
+}
+h1{
+    color: rgb(68, 234, 243);
+    font-family: Roboto;
+    text-align: center;
+    margin: 5px;
+    padding: 3px;
+}
+.divider1{
+    background-color: rgb(255, 149, 221);
+    height: auto;
+    width:  400px;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid rgb(146, 42, 113);
+    position: absolute;
+    left: 7%;
+    top: 50%;
+}
+img{
+    width: 300px;
+    height: 150px;
+    margin-left: 1.3cm;
+}
+.divider2{
+    background-color: rgba(92, 255, 116, 0.701);
+    height: auto;
+    width:  400px;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid rgb(141, 155, 99);
+    position: absolute;
+    left: 36%;
+    top: 30%;
+}
+.divider3{
+    background-color: rgb(95, 199, 255);
+    height: auto;
+    width:  400px;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid rgb(0, 4, 255);
+    position: absolute;
+    left: 65%;
+    top: 30%;
+}
+p{
+    color: rgba(99, 99, 99, 0.958);
+    font-size: 24px;
+    font-family: 'JetBrains', monospace;
+    font-weight: 300;
+    text-align: center;
+    margin: 5px;
+    padding: 3px;
+}
