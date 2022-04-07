@@ -51,6 +51,7 @@ h2{
     margin-bottom: 100px;
     margin-left: 80px;
     margin-right: 150px;
+    border-radius: 15px;
 }
 .paragraph{
     color: rgba(0, 0, 0, 0.795);
