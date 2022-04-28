@@ -13,6 +13,7 @@ body{
 .name{
     text-align:center;
     font-family: "cursive";
+    text-emphasis: double-circle;
 }
 .unit{
     font-family: "Candara";
@@ -27,6 +28,14 @@ hr{
     border-radius: 5px;
 }
 p{
+    font-family: "Ink Free";
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: condensed;
+    letter-spacing: 1px;
+    text-decoration: none;
+
 }
 .urls{ 
     width: 90%;  
@@ -44,7 +53,11 @@ a:active{ color: #ff0000;}
     left: 15%;
 }
 .ref1{
-
+margin: 15px 40px;
+    background: #F7DC6F;
+    color: black;
+    padding: 20px 20px;
+    box-shadow: 3px 8px 3px #aea14e ;
 }
 .a2{
     position: absolute;
@@ -54,6 +67,11 @@ a:active{ color: #ff0000;}
     right: 50%;
 }
 .ref2{
+    margin: 15px 40px;
+    background: #F7DC6F;
+    color: black;
+    padding: 20px 20px;
+    box-shadow: 3px 8px 3px #aea14e ;
 }
 .a3{
     position: absolute;
@@ -62,5 +80,10 @@ a:active{ color: #ff0000;}
     right: 15%;
 }
 .ref3{
+    margin: 15px 40px;
+    background: #F7DC6F;
+    color: black;
+    padding: 20px 20px;
+    box-shadow: 3px 8px 3px #aea14e ;
 
 }
