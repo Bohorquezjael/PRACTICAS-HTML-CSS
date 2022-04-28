@@ -42,10 +42,10 @@ p{
     top: 25px;
     padding: 15px;
 }
-a:link{ color: #0059ff;}
-a:visited{ color: #ae00ff;}
+a:link{ background: #0059ff;}
+a:visited{ background: #ae00ff;}
 a:hover{ background: #ff00ea;}
-a:active{ color: #ff0000;}
+a:active{ background: #ff0000;}
 .a1{
     position: absolute;
     top: 50%;
