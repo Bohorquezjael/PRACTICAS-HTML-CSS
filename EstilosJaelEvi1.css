@@ -1,6 +1,6 @@
 body{
     background-color: #e4e9cd;
-    
+
 }
 .date{
     text-align:right;
@@ -12,17 +12,55 @@ body{
 }
 .name{
     text-align:center;
-
+    font-family: "cursive";
 }
 .unit{
+    font-family: "Candara";
 }
 .product-name{
+    text-align:center;
+    font-family: "Italic";
+}
+hr{
+    background-color: #666203;
+    border: solid 2.5px;
+    border-radius: 5px;
 }
 p{
 }
+.urls{ 
+    width: 90%;  
+    margin: auto;
+    position: relative;
+}
+a:link{ color: #0059ff;}
+a:visited{ color: #ae00ff;}
+a:hover{ background: #ff00ea;}
+a:active{ color: #ff0000;}
+.a1{
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 15%;
+}
 .ref1{
+
+}
+.a2{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
 }
 .ref2{
 }
+.a3{
+    position: absolute;
+    top: 75%;
+    bottom: 75%;
+    right: 15%;
+}
 .ref3{
+
 }
