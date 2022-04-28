@@ -1,6 +1,18 @@
+body{
+    background-color: #e4e9cd;
+    
+}
 .date{
+    text-align:right;
+    font-family: "Courier New";
+    background-color: #b1c367;
+    color: #00bfff;
+    border: 2.5px solid #5100ff;
+    border-radius: 5px;
 }
 .name{
+    text-align:center;
+
 }
 .unit{
 }
