@@ -20,10 +20,14 @@ img{
 .navbar{
     background-color: #fff700;
     position: absolute; 
-    padding: 25px;
+    padding: 15px;
     border-radius: 15px;
-    right: 18px;
     top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    right: 30px;
 }
 .navbar1{
     position: sticky;
