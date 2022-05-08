@@ -58,7 +58,9 @@ img {
 	color: #000000;
 	text-transform: capitalize;
 }
-.article2 {
+.article2,
+.article3,
+.article4 {
 	background-color: #61faff;
 	padding: 5px;
 	margin: 5px;
@@ -78,6 +80,8 @@ p {
 	font-family: "comic sans ms";
 	font-size: 17px;
 	text-align: justify;
+	line-height: 1.5;
+	padding: 10px;
 }
 .img1 {
 	width: 100%;
@@ -108,11 +112,48 @@ aside {
 	padding: 10px;
 	background-color: #f0ff1f;
 	border-radius: 10px;
-    position: relative;
-    bottom: 605px;
+	position: relative;
+	bottom: 605px;
 }
-.imageaside{
-    width: 100%;
-    height: auto;
-    display: flex;
+.imageaside,
+.montecarlo {
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+.groupb {
+	border-radius: 20px;
+	width: 40%;
+	height: auto;
+	float: left;
+	margin-right: 15px;
+}
+.firstys {
+	border-radius: 20px;
+	width: 40%;
+	height: auto;
+	float: right;
+	margin-left: 15px;
+}
+.impreza555,
+.lanciaD,
+.rclio {
+	border-radius: 20px;
+	width: 25%;
+	float: right;
+	margin-left: 15px;
+}
+.lanciaD {
+	float: left;
+	margin-right: 15px;
+}
+.rclio {
+	float: right;
+	margin-left: 15px;
+}
+.montecarlo {
+	border-radius: 20px;
+}
+.ahistory {
+	top: -64.6cm;
 }
