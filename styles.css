@@ -60,7 +60,8 @@ img {
 }
 .article2,
 .article3,
-.article4 {
+.article4,
+.article5 {
 	background-color: #61faff;
 	padding: 5px;
 	margin: 5px;
@@ -116,10 +117,14 @@ aside {
 	bottom: 605px;
 }
 .imageaside,
-.montecarlo {
+.montecarlo,
+.hgames {
 	width: 100%;
 	height: auto;
 	display: flex;
+}
+.hgames{
+    padding: 5px;
 }
 .groupb {
 	border-radius: 20px;
@@ -151,9 +156,19 @@ aside {
 	float: right;
 	margin-left: 15px;
 }
-.montecarlo {
+.montecarlo,
+.hgames {
 	border-radius: 20px;
 }
 .ahistory {
 	top: -64.6cm;
+}
+li {
+	font-family: Euphoric Regular;
+	position: absoltue;
+	display: flex;
+	justify-content: center;
+}
+.acategory{
+    top: -52.9cm;
 }
