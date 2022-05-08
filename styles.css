@@ -20,14 +20,14 @@ img {
 .navbar {
 	background-color: #fff700;
 	position: absolute;
-	padding: 15px;
+	padding-right: 4px;
 	border-radius: 15px;
-	top: 50px;
+	top: 40%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 75%;
-	right: 30px;
+	right: 15px;
 }
 .navbar1 {
 	position: sticky;
@@ -207,7 +207,7 @@ li {
 	background-color: #f0ff1f;
 	border-radius: 10px;
 	position: relative;
-	top: -38.3cm;
+	top: -62.4cm;
 }
 .video{
 	border-radius: 20px;
