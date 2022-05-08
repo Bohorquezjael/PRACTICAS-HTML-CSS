@@ -1,9 +1,9 @@
-body{
+.register{
     background-image: url(https://www.esan.edu.pe/images/blog/2020/02/17/1200x630-campana-escolar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container{
+.containerpg2{
     background-color: #F9EBC8;
     width: 400px;
     height: 100%;
