@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripts en HTML</title>
+    
+</head>
+<body><style>
+        h1{ text-align:center; font-family: "Arial Black";}
+    </style>
+    <script>
+       var valores= prompt("Desea usar los valores por defecto o introducir los valores manualmente? (Y/N)");
+       if(valores=='Y'||valores=='y'){
+           var nombre='Juan';
+           var apellido='Perez';
+           var edad='45'
+           var celular='951-425-6287';
+           var calle=" Av. Las Flores";
+           var cp='71316';
+           alert("Su nombre es: "+nombre);
+              alert("Su apellido es: "+apellido);
+              alert("Su edad es: "+edad);
+              alert("Su celular es: "+celular);
+              alert("Su calle es: "+calle);
+              alert("Su codigo postal es: "+cp);
+              document.writeln("<h1>Nombre: Jael Jareth Alonso Bohorquez</h1>");
+              document.writeln("<h1>Grupo: 4Am-Pro</h1>");
+              document.writeln("<h1> Evidencia 1 CPW</h1>");
+              
+           
+       }else if(valores=='N'||valores=='n'){
+              var nombre=prompt("Ingrese su nombre");
+              var apellido=prompt("Ingrese su apellido");
+              var edad=prompt("Ingrese su edad");
+              var celular=prompt("Ingrese su celular");
+              var calle=prompt("Ingrese su calle");
+              var cp=prompt("Ingrese su codigo postal");
+              alert("Su nombre es: "+nombre);
+              alert("Su apellido es: "+apellido);
+              alert("Su edad es: "+edad);
+              alert("Su celular es: "+celular);
+              alert("Su calle es: "+calle);
+              alert("Su codigo postal es: "+cp);
+              document.writeln("<h1>Nombre: Jael Jareth Alonso Bohorquez</h1>");
+              document.writeln("<h1>Grupo: 4Am-Pro</h1>");
+              document.writeln("<h1> Evidencia 1 CPW</h1>");
+
+       }else{
+              alert("Ingrese una opcion valida");
+       }
+    </script>
+</body>
+</html>
