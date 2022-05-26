@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones con JS</title>
+</head>
+<body>
+    <style> 
+        h1{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 5px;
+        }
+    </style>
+    <h1>
+        Alumno: Jael Jareth Alonso bohorquez<br>Grupo: 4AmPro<br>Evidencia 4 Unidad 3 
+    </h1>
+    <script>
+        var op = prompt("Selecciona una opcion:\n 1: Kilos a Libras y Area de Triangulo\n 2: Kilometros a Millas")
+        if (op == 1){
+            var kg = prompt("Has seleccionado Kg a Lb\n Ingresa los Kilos a convertir: ")
+            var lb = kg*2.204623;
+            var base = prompt("Area de Triangulo\n Ingresa La base:")
+            var altura = prompt("Ingresa su altura")
+            var area = (base*altura)/2;
+            document.writeln("El resultado de la conversion es: " + lb )
+            document.writeln("El area del triangulo es: " + area)
+        }else if(op == 2){
+            var km = prompt("Has seleccionado Km a Millas\n Ingresa los Kilometros a convertir: ")
+            var millas = km*0.621371;
+            document.write("El resultado de la conversion es: " + millas)
+        }else{
+            alert("INGRESE UNA OPCION VALIDA")
+        }
+    </script>
+</body>
+</html>
