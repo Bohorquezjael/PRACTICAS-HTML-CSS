@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones en Js</title>
+</head>
+<style>
+    h1{ text-align: center; }
+    button{ width: 80px; height: 50px; margin: 10px; border-radius: 15px; background-color: dodgerblue; font-family: sans-serif; }
+    button:hover{ background-color: red; }
+    .container{ padding: 20px; display: flex; justify-content: center; }
+</style>
+    <h1>
+        Alumno: Jael Jareth Alonso bohorquez<br>Grupo: 4AmPro<br>Evidencia 4 Unidad 3 
+    </h1>
+    <div class="container">
+    <button class="btn1" onclick = "btn1()">Tailwind</button>
+    <button class="btn2" onclick = "btn2()">MySQL</button>
+    <button class="btn3" onclick = "btn3()">Bootstrap</button>
+    <button class="btn4" onclick = "btn4()">Live Server</button>
+    <button class="btn5" onclick = "btn5()">Github Copilot</button>
+    </div>
+    <script>
+        function btn1(){
+        	var mwdow = window.open("", "btn1", "width = 400,height = 400");
+            mwdow.document.write("<h1 style=text-align:center>TAILWIND</h1><br><p>Tailwind es un framework de css que nos provee miles de clases para dar estilo y estrucutura a nuestra app de una manera mucho mas eficiente y rapida, todo esto sin abandonar el html donde se esta trabajando, gracias a esto es facil crear paginas responsivas y mejorar nuestra productividad</p> ");
+        }
+        function btn2(){
+            var mwdow = window.open("", "btn2", "width = 400,height = 400");
+            mwdow.document.write("<h1 style=text-align:center>MySQL</h1><br><p>MySQL es una base de datos relacional, esto quiere decir que la informacion se organiza como un conjunto de tablas, MySQL es un sistema de gestion de base de datos que actualmente es de los mas conocidos y usados, se basa en el lenguaje de consulta SQL de ahi su nombre</p>");
+        }
+        function btn3(){
+            var mwdow = window.open("", "btn3", "width = 400,height = 400");
+            mwdow.document.write("<h1 style=text-align:center>BOOTSTRAP</h1><br><p>Bootstrap es un framework de css que a diferencia de Tailwind que principalmente sirve estilar las paginas, bootstrap esta mas orientado a la funcionalidad(crear objetos con estilos y funciones con js) tambien es responsivo y al igual que tailwind, provee las librerias para solo usarse lo cual hace que podamos crear paginas mas rapido con efectos y diseños</p>");
+        }
+        function btn4(){
+            var mwdow = window.open("", "btn4", "width = 400,height = 400", "");
+            mwdow.document.write("<h1 style=text-align:center>Live Server</h1><br><p>Es una extension de Visual Studio Code que permite crear un servidor local para visualizar archivos en tiempo real, por ejemplo para desarrollo web es muy util, nos ahorra tener que guardar el archivo y estar recargando la pagina en chrome ya que cada vez que se hace un cambio se recarga automaticamente la pagina</p>");
+        }
+        function btn5(){
+            var mwdow = window.open("", "btn5", "width = 400,height = 400");
+            mwdow.document.write("<h1 style=text-align:center>Github Copilot</h1><br><p>Es una IA pensada para ayudar a los developers a crear partes de codigo completos, es muy diferente de Tabnine u otras IA de autocompletado Copilot es mas potente y crea codigo no lo completa esto gracias a que al ser desarrollada por Github se entreno con todo el codigo alojado en sus servidores esto son miles de millones de lineas de codigo de diferentes developers esto la hace mas flexible y reduce el trabajo creando el codigo que es mas repetitivo logrando asi que elprogramador se enfoque en otras tareas mas importantes en el codigo</p>");
+        }
+    </script>
+</body>
+</html>
