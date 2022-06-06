@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTRUCTURA IF</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: chartreuse;
+        }
+        h1{
+            text-align: center;
+            color: blue;
+            margin-top: 50px;
+            line-height: 50px;
+            font-family: "Poppins";
+        }
+        h2{ 
+            text-align: center;
+            color: red;
+            margin-top: 50px;
+            font-family: Helvetica;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        CPW DAEC UNIDAD 3 EVIDENCIA 2 <br>
+        ALUMNO: ALONSO BOHORQUEZ JAEL JARETH <br>
+        FECHA DE ENTREGA: 8 DE JUNIO DEL 2022 A LAS 09:00 HRS <br>
+    </h1>
+    <script>
+        var edad = prompt("Ingrese su edad");
+        if (edad >= 18 && edad <=150) {
+            document.write("<h2>Usted es mayor de edad y puede votar</h2>");
+        } else if (edad <18 && edad > 4) {
+            document.write("<h2>Usted es menor de edad y no puede votar</h2>");
+        }else {
+            alert("INGRESE UNA EDAD VALIDA!!!!!!");
+            document.write("<h2>INGRESE UNA EDAD VALIDA!!!!!!</h2>");
+        }
+    </script>
+</body>
+</html>
