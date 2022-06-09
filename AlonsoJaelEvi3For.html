@@ -5,6 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TABLAS DEL 1 AL 10 </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: 'Ubuntu';
+            text-align: center;
+        }
+        body{
+            background-color: #6bbfff;
+        }
+        div{
+            background-color: rgb(255, 84, 84);
+            width: calc(max-device-width - 50px);
+            height: 350px;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px;
+            overflow: auto;
+        }
+        p{
+            font-size: 15px;
+            text-align: justify;
+        }
+        footer{
+            background-color: #636566;
+            width: max-device-width;
+            height: auto;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        a{ text-decoration: none; color: black; }
+    </style>
 </head>
 <body>
     <h1>
@@ -14,8 +48,9 @@
         <br>
         PREGUNTA UN NUMERO Y MUESTRA SU TABLA UTILIZANDO EL CICLO WHILE
     </h1>
+    <div>
     <script>
-        alert("EL script se ha ejectuado correctamente");
+      //alert("EL script se ha ejectuado correctamente");
         var base = 1;
         do {
         for (var i = 1; i <= 10; i++){
@@ -27,6 +62,7 @@
         }
     }while(base <= 10);
     </script>
+    </div>
     <footer>
         <a href="AlonsoJaelEvi3While.html">TABLA DE MULTIPLICAR DEL NUMERO QUE SE INDIQUE (CICLO WHILE)</a>
     </footer>
