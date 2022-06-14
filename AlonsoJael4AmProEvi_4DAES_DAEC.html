@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUMA Y RESTA EN Js</title>
+    <style>
+        input[type=number]::-webkit-inner-spin-button, 
+        input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none; 
+        margin: 0; 
+        }
+
+    input[type=number] { -moz-appearance:textfield; }
+    body{
+        background-color: #6cffdf;
+    }
+    h1{
+        text-align: center;
+        color: rgb(145, 168, 115);
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        border: solid;
+        border-width: 5px;
+        border-color: rgb(166, 227, 87);
+        border-radius: 10px;
+        padding: 10px;
+    }
+    h2{
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        color: rgb(120, 121, 90);  
+        text-align: center;
+    }
+    form{ text-align: center; }
+    .sum,
+    .res,
+    .n1,
+    .n2{
+        text-align: center;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        border-radius: 10px;
+        padding: 5px;
+        background-color: rgb(103, 189, 255);
+
+    }
+    </style>
+</head>
+<body>
+    <h1>
+        CPW DAEC UNIDAD 3 EVIDENCIA 4 <br>
+        ALUMNO: ALONSO BOHORQUEZ JAEL JARETH <br>
+        FECHA DE ENTREGA: 15 DE JUNIO DEL 2022 A LAS 20:00 HRS <br>
+    </h1>
+    <h2>ESCRIBE UN NUMERO EN CADA RECUADRO Y SELECCIONA LA OPERACION QUE DESEES REALIZAR</h2>
+    <form>
+    <input class="n1" id="n1" type="number" placeholder="PRIMER NUMERO">
+    <input class="n2" id="n2" type="number" placeholder="SEGUNDO NUMERO">
+    <button class="sum" id="sum" name="sum" onclick="sumar()">SUMAR LOS NUMEROS INGRESADOS</button>
+    <button class="res" id="res" name="res" onclick="restar()">RESTAR LOS NUMEROS INGRESADOS</button>
+    </form>
+    <script>
+        function sumar(){
+            var num1 = document.getElementById("n1").value;
+            var num2 = document.getElementById("n2").value;
+            var suma = alert("La suma es: " + (parseInt(num1) + parseInt(num2)));
+            if(n1 && n2 == ""){
+                alert("Ingresa un numero");
+                console.log("NO SE HA INGRESADO UN VALOR");
+            }else if(isNaN(num1 || num2)){
+                console.log("OCURRIO UN ERROR CON LOS VALORES");
+                alert("HUBO UN ERROR, RECARGA LA PAGINA")
+            }
+        }
+        function restar(){
+            var num1 = document.getElementById("n1").value;
+            var num2 = document.getElementById("n2").value;
+            var resta = alert("La resta es: " + (parseInt(num1) - parseInt(num2)));
+            if(n1 && n2 == ""){
+                alert("Ingresa un numero");
+                console.log("NO SE HA INGRESADO UN VALOR");
+            }else if(isNaN(num1 || num2)){
+                console.log("OCURRIO UN ERROR CON LOS VALORES");
+                alert("HUBO UN ERROR, RECARGA LA PAGINA")
+            }
+        }
+    </script>
+</body>
+</html>
