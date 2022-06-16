@@ -31,16 +31,19 @@
         color: rgb(120, 121, 90);  
         text-align: center;
     }
-    form{ text-align: center; }
+    /*form{ text-align: center; }*/
     .sum,
     .res,
     .n1,
-    .n2{
+    .n2,
+    .div,
+    .mul{
         text-align: center;
         font-family: "Comic Sans MS", cursive, sans-serif;
         border-radius: 10px;
         padding: 5px;
         background-color: rgb(103, 189, 255);
+        margin-top: 10px;
 
     }
     </style>
@@ -57,6 +60,8 @@
     <input class="n2" id="n2" type="number" placeholder="SEGUNDO NUMERO">
     <button class="sum" id="sum" name="sum" onclick="sumar()">SUMAR LOS NUMEROS INGRESADOS</button>
     <button class="res" id="res" name="res" onclick="restar()">RESTAR LOS NUMEROS INGRESADOS</button>
+    <button class="mul" id="mul" name="mul" onclick="multiplicar()">MULTIPLICAR LOS NUMEROS INGRESADOS</button>
+    <button class="div" id="div" name="div" onclick="dividir()">DIVIDIR LOS NUMEROS INGRESADOS</button>
     </form>
     <script>
         function sumar(){
@@ -75,6 +80,30 @@
             var num1 = document.getElementById("n1").value;
             var num2 = document.getElementById("n2").value;
             var resta = alert("La resta es: " + (parseInt(num1) - parseInt(num2)));
+            if(n1 && n2 == ""){
+                alert("Ingresa un numero");
+                console.log("NO SE HA INGRESADO UN VALOR");
+            }else if(isNaN(num1 || num2)){
+                console.log("OCURRIO UN ERROR CON LOS VALORES");
+                alert("HUBO UN ERROR, RECARGA LA PAGINA")
+            }
+        }
+        function multiplicar(){
+            var num1 = document.getElementById("n1").value;
+            var num2 = document.getElementById("n2").value;
+            var multiplicacion = alert("La multiplicacion es: " + (parseInt(num1) * parseInt(num2)));
+            if(n1 && n2 == ""){
+                alert("Ingresa un numero");
+                console.log("NO SE HA INGRESADO UN VALOR");
+            }else if(isNaN(num1 || num2)){
+                console.log("OCURRIO UN ERROR CON LOS VALORES");
+                alert("HUBO UN ERROR, RECARGA LA PAGINA")
+            }
+        }
+        function dividir(){
+            var num1 = document.getElementById("n1").value;
+            var num2 = document.getElementById("n2").value;
+            var division = alert("La division es: " + (parseInt(num1) / parseInt(num2)));
             if(n1 && n2 == ""){
                 alert("Ingresa un numero");
                 console.log("NO SE HA INGRESADO UN VALOR");
